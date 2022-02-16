@@ -16,7 +16,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #F9F1F8;
+    color: #F9FAF8;
 }
 
 .links {
@@ -50,6 +50,7 @@ body {
 
 .hero-text button{
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero {
@@ -68,6 +69,7 @@ body {
     background-color: rgba(255, 255, 255, 0.356);
     justify-content: center;
     align-items: center;
+    height: 240px;
 }
 
 .hero-text button {
@@ -77,4 +79,118 @@ body {
     padding: 8px 36px;
     margin-top: 12px;
     border-radius: 8px;
+}
+
+.sect-2 {
+    height: 500px;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+
+.sect-2-title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px;
+}
+
+.sect-2-cards .card .card-image {
+    height: 165px;
+    width: 165px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882F6;
+}
+
+.sect-2-cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    text-align: center;
+    row-gap: 8px;
+}
+
+.sect-2-cards {
+    display: flex;
+    column-gap: 60px;
+}
+
+.sect-3 {
+    height: 425px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.quote {
+    width: 800px;
+}
+
+.sect-4 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9F1F8;
+    border-radius: 10px;
+    column-gap: 180px;
+}
+
+.call-to-action-text-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.call-to-action button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 36px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.call-to-action-text {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
